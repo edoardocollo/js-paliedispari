@@ -51,9 +51,18 @@ function verificaPariDispari(numero){
 }
 console.log(verificaPariDispari(somma));
 // Dichiariamo chi ha vinto.
+if(pariODispari == 'pari'){
+  if (verificaPariDispari(somma)) {
+    console.log('hai vinto');
+  }else{
+    console.log('hai perso');
+  }
 
-if (verificaPariDispari(somma)) {
-  console.log('hai vinto');
-}else{
-  console.log('hai perso');
+}else {
+
+  if (verificaPariDispari(somma)) {
+    console.log('hai perso');
+  }else{
+    console.log('hai vinto');
+  }
 }
