@@ -5,8 +5,8 @@
 /**
  * Verifica se una parola è palindroma.
  *
- * @param {string} x The number to raise.
- * @return {boolean} x raised to the n-th power.
+ * @param {string} parola inserita
+ * @return {boolean} risultato verifica.
  */
 
 
